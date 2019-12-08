@@ -1,0 +1,551 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #191919;
+    line-height: 22px;
+    background-image: url(../img/bg-white.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+   
+}
+a {
+    text-decoration: none;
+    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#818181;
+    line-height: 28px;
+    
+}
+
+.title-h1-38 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+font-weight: 600;
+letter-spacing: 1px;
+padding: 137px 0px 0px;
+}
+.title-h1-30 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+letter-spacing: 0px;
+padding: 76px 0px 0px;
+margin: 0 auto;
+}
+.title-h1-12 {
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding: 30px 0 16px;
+margin: 0 auto;
+}
+
+.pgf-content-18 {
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+letter-spacing: 0.3px;
+font-weight: 500;
+padding: 0 0 32px;
+}
+.pgf-content-16 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    line-height: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+
+.title-h1-12-stat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding: 0 0 0 19px;
+    margin: 0 auto;
+    }
+.title-h1-12-stat span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding: 0;
+    margin: 0 auto;
+}
+.title-h1-12-work {
+    font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 600;
+color: #8e8e8e;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding: 30px 0 16px;
+margin: 0 auto;
+}
+
+.wrap {max-width: 1180px; 
+    margin: 0 auto;
+    padding-left: 15px ;
+    padding-right: 15px;
+    }
+/* HEADER */
+.box-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 34px;
+
+}
+
+.logo {display: block;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 28px;
+    }
+.nav {
+display: flex;
+font-size: 12px;
+color: #191919;
+text-transform: uppercase;
+font-weight: 700;
+list-style-type: none;
+margin: 0;
+padding: 0;
+letter-spacing: 1.9px;
+}
+
+.nav>li {
+padding: 0 12px 0 11px;
+}
+
+.nav-item {
+color: #191919;
+transition: 0.4s;
+}
+.nav-item:hover {
+color: #10c9c3;
+}
+/* STUDIO */
+.flex-studio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.box-studio {
+    width: 501px;
+}
+/* ABOUT */
+.box-about {
+    width: 578px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 89px;
+}
+
+.painting{
+    width: 223px;
+    height: 63px;
+}
+/* SKILLS */
+.flex-skills {
+    display: flex;
+justify-content: space-between;
+padding: 0;
+}
+.box-skills-content {
+    width: 501px;
+    margin: 0 auto;
+    padding: 77px 82px 15px;
+}
+.box-skills-img {
+    flex-basis: 55%;
+}
+.box-stat {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 96px 0;
+}
+.flex-stat {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.portfolio-img {
+    background-image: url(../img/portfolio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 36px;
+}
+.clock-img {
+    background-image: url(../img/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.star-img {
+    background-image: url(../img/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 36px;
+}
+.like-img {
+    background-image: url(../img/like.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 36px;
+}
+
+
+/* ШКАЛА НАВЫКА*/
+
+.progress-75 {
+    position: relative;
+    width: 500px;
+    height: 3px;
+    overflow: hidden;
+    background-color: #10c9c3;
+}
+   
+.strips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 6px 100%;
+}
+  .grayback-75 {
+    position: relative;
+    left: 75%;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.progress-90 {
+    position: relative;
+    width: 500px;
+    height: 3px;
+    overflow: hidden;
+    background-color: #10c9c3;
+}
+   
+.strips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 6px 100%;
+}
+  .grayback-90 {
+    position: relative;
+    left: 90%;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.progress-65 {
+    position: relative;
+    width: 500px;
+    height: 3px;
+    overflow: hidden;
+    background-color: #10c9c3;
+}
+   
+.strips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 6px 100%;
+}
+  .grayback-65 {
+    position: relative;
+    left: 65%;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+/* WORK */ 
+.box-work {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+.box-work-bg-gray {
+    background-image: url(../img/work-img-gray.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+}
+.box-work-bg-white{
+    background-image: url(../img/work-img-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+}
+.box-work-bg-black {
+    background-image: url(../img/work-img-black.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+}
+
+.more-work{
+    background-image: url(../img/bg-more-work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px 0 22px 0;
+}
+
+.flex-work {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* PROCESS */
+
+.box-process {
+    width: 493px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+.box-video {
+    text-align: center;
+    margin: 0 auto;
+    width: 1170px ;
+    height: 571px;
+    position: relative;
+}
+
+
+
+
+/* COMPANY */
+.list-company{
+    max-width: 1180px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.company-one {flex-basis: 89px; }
+.company-two {flex-basis: 98px; }
+.company-three {flex-basis: 127px; }
+.company-four {flex-basis: 96px; }
+
+.list-company-item span{
+display: block;
+}
+.company-one span{
+background-image: url(../img/handmade.png);
+background-repeat: no-repeat;
+width: 89px;
+height: 65px;
+}
+.company-two span{
+background-image: url(../img/mountain.png);
+background-repeat: no-repeat;
+width: 98px;
+height: 58px;
+}
+.company-three span{
+background-image: url(../img/collection.png);
+background-repeat: no-repeat;
+width: 127px;
+height: 72px;
+}
+.company-four span{
+background-image: url(../img/mountainbike.png);
+background-repeat: no-repeat;
+width: 96px;
+height: 72px;
+}
+
+/* FORM */
+.box-form-content {
+    width: 532px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+.box-form {
+    width: 532px;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contact-form input, .contact-form textarea  {
+    font-size: 12px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    }
+
+.contact-form-name {
+    flex-basis: 48%;
+    }
+.contact-form-mail {
+    flex-basis: 48%;
+}
+.contact-form-title {
+
+}
+.contact-form-text textarea {
+    height: 120px;
+    margin-bottom: 41px;
+}
+/* КНОПКИ */
+
+
+.btn-primary {color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #10c9c3;
+    border: 1px solid #10c9c3;
+    padding: 20px 45px;
+    letter-spacing: 1.5px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+    .btn-primary:hover {color:#10c9c3;
+    background-color: #fff;
+    }
+/* PAGE */
+
+.page-studio {
+background-image: url(../img/bg-wedd.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0 0 117px 0;
+
+}
+
+.page-skills {
+    background-image: url(../img/bg-skills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 117px 0;
+
+}
+
+.page-stat {
+    background-image: url(../img/bg-stat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.page-process {
+    padding: 65px 0 77px;
+}
+
+
+.page-company {
+    background-image: url(../img/bg-company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0; 
+}
+
+.page-form {
+    background-image: url(../img/bg-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 86px;
+}
