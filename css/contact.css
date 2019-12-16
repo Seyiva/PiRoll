@@ -1,0 +1,293 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #191919;
+    line-height: 22px;
+    background-image: url(../img/bg-white.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+   
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#818181;
+    line-height: 28px;
+    
+}
+ul { list-style-type: none; }
+
+.title-h1-30 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+letter-spacing: 0px;
+padding: 0px;
+margin: 0 auto;
+}
+
+.pgf-content-16 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    line-height: 1.4em;
+    padding-bottom: 17px;
+}
+.pgf-content-16 span{
+    font-weight: 600;
+}
+
+.wrap {max-width: 1180px; 
+    margin: 0 auto;
+    padding-left: 15px ;
+    padding-right: 15px;
+}
+/* HEADER */
+.box-header {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 34px 0;
+
+}
+
+.logo {display: block;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 28px;
+    }
+.nav {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+font-size: 12px;
+color: #191919;
+text-transform: uppercase;
+font-weight: 700;
+list-style-type: none;
+margin: 0;
+padding: 0;
+letter-spacing: 1.9px;
+}
+
+.nav>li {
+padding: 0 12px 0 11px;
+}
+
+.nav-item {
+color: #191919;
+-webkit-transition: 0.4s;
+transition: 0.4s;
+}
+.nav-item:hover {
+color: #10c9c3;
+}
+
+
+/* FORM */
+.flex-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-form-content {
+    width: 532px;
+    text-align: left;
+    margin: 0 auto;
+    }
+    .box-form {
+    width: 532px;
+    text-align: left;
+    margin: 0 auto;
+    }
+    .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }
+    
+    .flex-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    }
+    
+    
+    .contact-form input, .contact-form textarea  {
+    font-size: 12px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    }
+    
+    .contact-form-name {
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
+    .contact-form-mail {
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+    }
+    .contact-form-title {
+    
+    }
+    .contact-form-text textarea {
+        height: 120px;
+        margin-bottom: 41px;
+    }
+
+    .box-map {
+        text-align: center;
+        margin: 0 auto;
+        width: 1170px ;
+        height: 470px;
+        padding-top: 46px;
+    }
+
+/* КНОПКИ */
+    .btn-primary {color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #10c9c3;
+        border: 1px solid #10c9c3;
+        padding: 20px 45px;
+        letter-spacing: 1.5px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+        .btn-primary:hover {color:#10c9c3;
+        background-color: #fff;
+        }
+/* FOOTER */
+
+.box-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .title-h1-18 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.9em;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .title-h1-18 span {
+        display: block;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.9em;
+    }
+    .title-h1-15-footer {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.9em;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .title-h1-15-footer span {
+        display: block;
+    }
+    .title-h1-15-footer:hover {
+        color: #10c9c3;
+    }
+    .flex-sitemap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 auto;
+    -ms-flex-preferred-size: 160px;
+        flex-basis: 160px;
+    }
+    .square-footer {
+        -ms-flex-preferred-size: 250px;
+            flex-basis: 250px;
+        margin: 0 auto;
+    }
+    .square-footer-contact {
+        -ms-flex-preferred-size: 160px;
+            flex-basis: 160px;
+        margin: 0 auto;
+    }
+
+
+/* PAGE */
+.page-form {
+    background-image: url(../img/bg-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 93px 0;
+}
+
+.page-footer {
+    background-image: url(../img/bg-footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0; 
+}
