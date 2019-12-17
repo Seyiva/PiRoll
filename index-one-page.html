@@ -309,7 +309,31 @@
             </div>
         </div>
     </div>
-   
+    <div class="modal">
+        <button class="btn-close" type="button"><span>&times;</span></button>
+        <ul class="nav-modal">
+            <li><a href="" class="nav-item">Home</a></li>
+            <li><a href="" class="nav-item">About</a></li>
+            <li><a href="" class="nav-item">Work</a></li>
+            <li><a href="" class="nav-item">Process</a></li>
+            <li><a href="" class="nav-item">Servies</a></li>
+            <li><a href="" class="nav-item">Testmonials</a></li>
+            <li><a href="" class="nav-item">Contact</a></li>
+        </ul>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <script>
+    $(document).ready(function(){
+        $(".btn-menu").click (function(){
+            $(".modal").show();
+        });
+        $(".btn-close").click (function(){
+            $(".modal").hide();
+        });
+    });
+    </script> 
 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -347,30 +371,6 @@
     });
     </script>
 
-    <div class="modal">
-        <button class="btn-close" type="button"><span>&times;</span></button>
-        <ul class="nav-modal">
-            <li><a href="" class="nav-item">Home</a></li>
-            <li><a href="" class="nav-item">About</a></li>
-            <li><a href="" class="nav-item">Work</a></li>
-            <li><a href="" class="nav-item">Process</a></li>
-            <li><a href="" class="nav-item">Servies</a></li>
-            <li><a href="" class="nav-item">Testmonials</a></li>
-            <li><a href="" class="nav-item">Contact</a></li>
-        </ul>
-    </div>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-    </script>
-    <script>
-    $(document).ready(function(){
-        $(".btn-menu").click (function(){
-            $(".modal").show();
-        });
-        $(".btn-close").click (function(){
-            $(".modal").hide();
-        });
-    });
-    </script>
+   
 </body>
 </html>
