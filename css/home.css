@@ -161,9 +161,7 @@ color: #10c9c3;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
+        }
     
     .title-h1-18 {
         font-family: 'Montserrat', sans-serif;
@@ -242,3 +240,40 @@ color: #10c9c3;
     background-size: cover;
     padding: 55px 0; 
 }
+
+
+
+@media (max-width:960px) {
+.flex-sitemap {display: none;}
+.square-footer-social {display: none;}
+}
+@media (max-width:820px) {
+.title-h1-18 { font-size: 15px; }
+.title-h1-18 span { font-size: 14px;}
+.title-h1-15-footer { font-size: 14px;}
+
+.square-footer-contact {padding-bottom: 11px;}
+.square-footer {
+-ms-flex-preferred-size: 250px;
+flex-basis: 187px;
+margin: 0 auto;     padding-right: 5px;
+}
+}
+@media (max-width:760px) {
+    .page-studio {     padding: 0 0 27px 0; }
+    .box-design { width: 100%; padding: 0 15px;} 
+}
+@media (max-width:560px) {
+    .box-header    { padding: 34px 5px;} 
+    
+    .title-h1-38 {    font-size: 35px;     padding: 61px 0px 0px; }
+    .pgf-content-18 {    font-size: 16px; }
+}
+
+@media (max-width:350px) {
+    .title-h1-18 { font-size: 14px; }
+    .title-h1-18 span { font-size: 13px;}
+    .title-h1-15-footer { font-size: 13px;}
+  }
+    
+
