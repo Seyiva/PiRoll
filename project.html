@@ -23,9 +23,10 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito+Sans:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/about.css"> 
+    <link rel="stylesheet" href="css/project.css"> 
     <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="js/owl.carousel.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css" />
 </head>
@@ -39,7 +40,87 @@
         </ul>
     </div>
 
-    
+    <div class="page-work ">
+      <div class="owl-carousel wrap">
+        <div class="head-work"> 
+            <div class="box-content-work">
+                <h1 class="title-h1-38">Light Breakfast</h1>
+                <p class="pgf-content-16-about ">Light his can't a creeping. Be, bring blessed night. Replenish 
+                    blessed creature good. Saw earth every creepeth lights day, 
+                    divided abundantly form. In. Said given lights. Sixth the male. 
+                    Upon their multiply. Kind beast. Him tree upon. 
+                    
+                    Cattle. Dominion day herb she'd creeping divide darkness. 
+                    Which. Subdue had.
+                </p>
+                <div class="pgf-content-16"><span>Client:</span>&#160; Emma Morris</div>
+                <div class="pgf-content-16"><span>Date: </span>&#160;25.06.2017</div>
+                <div class="pgf-content-16"><span>Share:</span>&#160;Facebook, Twitter, Pinterest</div>
+            </div>
+            <div class="box-img-work">
+                <img src="" alt="">
+            </div>
+        </div>
+              <div class="head-work"> 
+                <div class="box-content-work">
+                    <h1 class="title-h1-38">Light Breakfast</h1>
+                    <p class="pgf-content-16-about ">Light his can't a creeping. Be, bring blessed night. Replenish 
+                        blessed creature good. Saw earth every creepeth lights day, 
+                        divided abundantly form. In. Said given lights. Sixth the male. 
+                        Upon their multiply. Kind beast. Him tree upon. 
+                        
+                        Cattle. Dominion day herb she'd creeping divide darkness. 
+                        Which. Subdue had.
+                    </p>
+                    <div class="pgf-content-16"><span>Client:</span>&#160; Emma Morris</div>
+                    <div class="pgf-content-16"><span>Date: </span>&#160;25.06.2017</div>
+                    <div class="pgf-content-16"><span>Share:</span>&#160;Facebook, Twitter, Pinterest</div>
+                </div>
+                <div class="box-img-work">
+                    <img src="" alt="">
+                </div>
+            </div>
+              <div class="head-work"> 
+                <div class="box-content-work">
+                    <h1 class="title-h1-38">Light Breakfast</h1>
+                    <p class="pgf-content-16-about ">Light his can't a creeping. Be, bring blessed night. Replenish 
+                        blessed creature good. Saw earth every creepeth lights day, 
+                        divided abundantly form. In. Said given lights. Sixth the male. 
+                        Upon their multiply. Kind beast. Him tree upon. 
+                        
+                        Cattle. Dominion day herb she'd creeping divide darkness. 
+                        Which. Subdue had.
+                    </p>
+                    <div class="pgf-content-16"><span>Client:</span>&#160; Emma Morris</div>
+                    <div class="pgf-content-16"><span>Date: </span>&#160;25.06.2017</div>
+                    <div class="pgf-content-16"><span>Share:</span>&#160;Facebook, Twitter, Pinterest</div>
+                </div>
+                <div class="box-img-work">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="head-work"> 
+              <div class="box-content-work">
+                  <h1 class="title-h1-38">Light Breakfast</h1>
+                  <p class="pgf-content-16-about ">Light his can't a creeping. Be, bring blessed night. Replenish 
+                      blessed creature good. Saw earth every creepeth lights day, 
+                      divided abundantly form. In. Said given lights. Sixth the male. 
+                      Upon their multiply. Kind beast. Him tree upon. 
+                      
+                      Cattle. Dominion day herb she'd creeping divide darkness. 
+                      Which. Subdue had.
+                  </p>
+                  <div class="pgf-content-16"><span>Client:</span>&#160; Emma Morris</div>
+                  <div class="pgf-content-16"><span>Date: </span>&#160;25.06.2017</div>
+                  <div class="pgf-content-16"><span>Share:</span>&#160;Facebook, Twitter, Pinterest</div>
+              </div>
+              <div class="box-img-work">
+                  <img src="" alt="">
+              </div>
+          </div>
+        </div>
+        
+    </div>
 
     <div class="page-footer">
         <div class="wrap box-footer">
@@ -74,5 +155,44 @@
             </div>
         </div>
     </div>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script> 
+    <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true,
+        nav: true,
+        navText: ["<  previous project","next project  >"],
+        autoplay:true,
+        autoplayTimeout:7000,
+        autoplayHoverPause:false
+      });
+      if ( $(window).width() > 768 ) {
+        var owlActive = owl.owlCarousel(owlOptions);
+      } else {
+        owl.addClass('off');
+      }
+    
+      $(window).resize(function() {
+        if ( $(window).width() > 768 ) {
+          if ( $('.owl-carousel').hasClass('off') ) {
+            var owlActive = owl.owlCarousel(owlOptions);
+            owl.removeClass('off');
+          }
+        } else {
+          if ( !$('.owl-carousel').hasClass('off') ) {
+            owl.addClass('off').trigger('destroy.owl.carousel');
+            owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
+          }
+        }
+      });
+    });
+    </script>
+
 </body>
 </html>
