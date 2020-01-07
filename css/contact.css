@@ -264,6 +264,10 @@ color: #10c9c3;
     -ms-flex-preferred-size: 160px;
         flex-basis: 160px;
     }
+    .square-footer-company {
+        -ms-flex-preferred-size: 250px;
+            flex-basis: 250px;
+    }
     .square-footer {
         -ms-flex-preferred-size: 250px;
             flex-basis: 250px;

@@ -797,6 +797,10 @@ margin: 0 auto;
 -ms-flex-preferred-size: 160px;
     flex-basis: 160px;
 }
+.square-footer-company {
+    -ms-flex-preferred-size: 250px;
+        flex-basis: 250px;
+}
 .square-footer {
     -ms-flex-preferred-size: 250px;
         flex-basis: 250px;
@@ -999,8 +1003,9 @@ padding: 47px 0px 15px;
 .box-skills-img {display: none;}
 
 .box-work-bg-gray, .box-work-bg-white, .box-work-bg-black {
-min-width: 340px;
-margin: 3px;
+width: 300px;
+height: 260px;
+
 }
 
 
@@ -1111,7 +1116,7 @@ margin: 0 auto;}
 
 .box-work-bg-gray, .box-work-bg-white, .box-work-bg-black {
 min-width: 310px;
-margin: 2px;
+
 }
 
 }
